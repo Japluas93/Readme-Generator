@@ -13,3 +13,18 @@
 // THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 // WHEN I click on the links in the Table of Contents
 // THEN I am taken to the corresponding section of the README
+
+// fs is a Node standard library package for reading and writing files
+const fs = require("fs");
+
+// array of questions for user
+const questions = [];
+
+// function to write README file
+function writeToFile(fileName, data) {}
+
+// function to initialize program
+function init() {}
+
+// function call to initialize program
+init();
