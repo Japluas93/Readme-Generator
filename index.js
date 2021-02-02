@@ -17,14 +17,26 @@
 // fs is a Node standard library package for reading and writing files
 const fs = require("fs");
 
+const inquirer = require("inquirer");
+
 // array of questions for user
-const questions = [];
+const questions = [
+  {
+    type: "input",
+    message: "What is the name of your application?",
+    name: "appName",
+  },
+  {
+    type: "input",
+    message: "Please describe your application",
+    name: "appDescription",
+  },
+];
 
-// function to write README file
-function writeToFile(fileName, data) {}
-
-// function to initialize program
-function init() {}
-
-// function call to initialize program
-init();
+inquirer.prompt(questions).then((response) => {
+  const result = `
+# ${response.appName}
+${response.appDescription}`;
+  console.log(result);
+  console.log(response);
+});
