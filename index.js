@@ -17,9 +17,10 @@
 // fs is a Node standard library package for reading and writing files
 const fs = require("fs");
 
+// express is a Node standard library package for asking questions, parsing input, and validating answers
 const inquirer = require("inquirer");
 
-// array of questions for user
+// array of questions that will be prompted for user
 const questions = [
   {
     type: "input",
@@ -32,7 +33,8 @@ const questions = [
     name: "appDescription",
   },
 ];
-
+// Launching the prompt interface (using inquirer.prompt) with our questions array that will wait for the user's input
+// User input values are called back (with the .then method) and applied to the response arguement
 inquirer.prompt(questions).then((response) => {
   const result = `
 # ${response.appName}
