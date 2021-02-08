@@ -85,3 +85,8 @@ ${response.appDescription}`;
   console.log(result);
   console.log(response);
 });
+
+fs.writeFile("README.md", result, function (err) {
+  if (err) return console.log(err);
+  console.log("This is your Read Me");
+});
