@@ -32,9 +32,52 @@ const questions = [
     message: "Please describe your application",
     name: "appDescription",
   },
+  {
+    type: "input",
+    message: "Please explain how to install your application.",
+    name: "appInstall",
+  },
+  {
+    type: "input",
+    message: "Please explain how to use your application.",
+    name: "appUsage",
+  },
+  {
+    type: "checkbox",
+    message:
+      "Please select which type of license you used for this application.",
+    choices: ["MIT", "ISC", "Apache License 2.0", "GNU GPLv3"],
+    name: "license",
+  },
+  {
+    type: "input",
+    message:
+      "Please explain your contribution guidelines for this application.",
+    name: "appContributions",
+  },
+  {
+    type: "input",
+    message: "Please explain how to run tests for your application.",
+    name: "appTests",
+  },
+  {
+    type: "input",
+    message: "Please enter your Github Username.",
+    name: "githubUsername",
+  },
+  {
+    type: "input",
+    message: "Please enter your e-mail address.",
+    name: "eMail",
+  },
+  {
+    type: "input",
+    message: "Please enter instructions on how you might be contacted.",
+    name: "contactInstructions",
+  },
 ];
 // Launching the prompt interface (using inquirer.prompt) with our questions array that will wait for the user's input
-// User input values are called back (with the .then method) and applied to the response arguement
+// User input values are called back (with the .then method) and applied to the response argument
 inquirer.prompt(questions).then((response) => {
   const result = `
 # ${response.appName}
