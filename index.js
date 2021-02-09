@@ -94,7 +94,7 @@ ${response.contactInstructions}`;
   console.log(response);
 });
 // Take users responses and log them (using fs.writeFile) to their generated Read Me file"
-fs.writeFile("README.md", result, function (err) {
+fs.writeFile("README.txt", result, function (err) {
   if (err) return console.log(err);
   console.log("This is your Read Me");
 });
