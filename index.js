@@ -43,11 +43,11 @@ const questions = [
     name: "appUsage",
   },
   {
-    type: "checkbox",
+    type: "list",
     message:
       "Please select which type of license you used for this application.",
     choices: ["MIT", "ISC", "Apache License 2.0", "GNU GPLv3"],
-    name: "license",
+    name: "appLicense",
   },
   {
     type: "input",
@@ -62,6 +62,11 @@ const questions = [
   },
   {
     type: "input",
+    message: "Please enter instructions on how you might be contacted.",
+    name: "contactInstructions",
+  },
+  {
+    type: "input",
     message: "Please enter your Github Username.",
     name: "githubUsername",
   },
@@ -70,31 +75,44 @@ const questions = [
     message: "Please enter your e-mail address.",
     name: "eMail",
   },
-  {
-    type: "input",
-    message: "Please enter instructions on how you might be contacted.",
-    name: "contactInstructions",
-  },
 ];
 // Launching the prompt interface (using inquirer.prompt) with our questions array that will wait for the user's input
 // User input values are called back (with the .then method) and applied to the response argument
 inquirer.prompt(questions).then((response) => {
   const result = `
+  # Table of Contents
+1. [Name](#Name)
+2. [Description](#Description)
+3. [Installation Instructions](#Installation-Instructions)
+4. [License](#License)
+5. [Contributions](Contributions)
+6. [Tests](Tests)
+7. [Questions](Questions)  
+# Name
 # ${response.appName}
+# Description
 ${response.appDescription}
+# Installation Instructions
 ${response.appInstall}
+# Usage
 ${response.appUsage}
-${response.license}
+# License
+${response.appLicense}
+# Contributions
 ${response.appContributions}
-${response.Tests}
-${response.githubUsername}
+# Tests
+${response.appTests}
+# Questions
+${response.contactInstructions}
+If you have any additional questions, feel free to reach me at: 
+[Github Profile](https://github.com/${response.githubUsername})  
 ${response.eMail}
-${response.contactInstructions}`;
+`;
   console.log(result);
   console.log(response);
-});
-// Take users responses and log them (using fs.writeFile) to their generated Read Me file"
-fs.writeFile("README.txt", result, function (err) {
-  if (err) return console.log(err);
-  console.log("This is your Read Me");
+  // Take users responses and log them (using fs.writeFile) to their Generated Read Me file"
+  fs.writeFile("GENERATEDREADME.md", result, function (err) {
+    if (err) return console.log(err);
+    console.log("This is your Read Me");
+  });
 });
