@@ -81,7 +81,15 @@ const questions = [
 inquirer.prompt(questions).then((response) => {
   const result = `
 # ${response.appName}
-${response.appDescription}`;
+${response.appDescription}
+${response.appInstall}
+${response.appUsage}
+${response.license}
+${response.appContributions}
+${response.Tests}
+${response.githubUsername}
+${response.eMail}
+${response.contactInstructions}`;
   console.log(result);
   console.log(response);
 });
