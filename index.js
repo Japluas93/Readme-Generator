@@ -103,9 +103,7 @@ ${response.appContributions}
 # Tests
 ${response.appTests}
 # Questions
-${response.contactInstructions}
-If you have any additional questions, feel free to reach me at: 
-[Github Profile](https://github.com/${response.githubUsername})  
+${response.contactInstructions} [Github Profile](https://github.com/${response.githubUsername})  
 ${response.eMail}
 `;
   console.log(result);
