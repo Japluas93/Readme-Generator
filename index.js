@@ -105,8 +105,7 @@ ${response.appTests}
 # Questions
 ${response.contactInstructions}  
 ${response.eMail}  
-[Github Profile](https://github.com/${response.githubUsername})  
-
+[Github Profile](https://github.com/${response.githubUsername})
 `;
   console.log(result);
   console.log(response);
