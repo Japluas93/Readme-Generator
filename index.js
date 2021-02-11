@@ -67,13 +67,13 @@ const questions = [
   },
   {
     type: "input",
-    message: "Please enter your Github Username.",
-    name: "githubUsername",
+    message: "Please enter your e-mail address.",
+    name: "eMail",
   },
   {
     type: "input",
-    message: "Please enter your e-mail address.",
-    name: "eMail",
+    message: "Please enter your Github Username.",
+    name: "githubUsername",
   },
 ];
 // Launching the prompt interface (using inquirer.prompt) with our questions array that will wait for the user's input
@@ -104,8 +104,9 @@ ${response.appContributions}
 ${response.appTests}
 # Questions
 ${response.contactInstructions}  
+${response.eMail}  
 [Github Profile](https://github.com/${response.githubUsername})  
-${response.eMail}
+
 `;
   console.log(result);
   console.log(response);
