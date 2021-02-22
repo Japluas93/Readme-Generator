@@ -38,4 +38,4 @@ NOT APPLICABLE
 
 If you have any additional questions, feel free to reach me at:  
 [Github Profile](https://github.com/Japluas93)  
-[julianpluas@gmail.com]()
+Email: [julianpluas@gmail.com]()
