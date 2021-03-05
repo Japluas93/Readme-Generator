@@ -6,9 +6,9 @@
 2. [Installation Instructions](#Installation-Instructions)
 3. [Usage](#Usage)
 4. [License](#License)
-5. [Contributions](Contributions)
-6. [Tests](Tests)
-7. [Questions](Questions)
+5. [Contributions](#Contributions)
+6. [Tests](#Tests)
+7. [Questions](#Questions)
 
 # Description
 
