@@ -9,7 +9,7 @@
 5. [Contributions](#Contributions)
 6. [Tests](#Tests)
 7. [Questions](#Questions)
-8. [Walkthrough Video]
+8. [Walkthrough Video](#Walkthrough-Video)
 
 # Description
 
