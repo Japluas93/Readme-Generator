@@ -28,6 +28,8 @@ Please reference the "Installation Instructions".
 
 MIT
 
+# Badges
+
 # Contributions
 
 NOT APPLICABLE
