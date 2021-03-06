@@ -6,7 +6,7 @@
 2. [Installation Instructions](#Installation-Instructions)
 3. [Usage](#Usage)
 4. [License](#License)
-5. [Badges]
+5. [Badges](#Badges)
 6. [Contributions](#Contributions)
 7. [Tests](#Tests)
 8. [Questions](#Questions)
