@@ -69,10 +69,10 @@ inquirer.prompt(questions).then((response) => {
 2. [Description](#Description)
 3. [Installation Instructions](#Installation-Instructions)
 4. [Usage](#Usage)
-4. [License](#License)
-5. [Contributions](#Contributions)
-6. [Tests](#Tests)
-7. [Questions](#Questions)  
+5. [License](#License)
+6. [Contributions](#Contributions)
+7. [Tests](#Tests)
+8. [Questions](#Questions)  
 # Name
 # ${response.appName}
 # Description
