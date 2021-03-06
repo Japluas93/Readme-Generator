@@ -73,6 +73,7 @@ inquirer.prompt(questions).then((response) => {
 6. [Contributions](#Contributions)
 7. [Tests](#Tests)
 8. [Questions](#Questions)  
+
 # Name
 # ${response.appName}
 # Description
