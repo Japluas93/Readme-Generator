@@ -68,6 +68,7 @@ inquirer.prompt(questions).then((response) => {
 1. [Name](#Name)
 2. [Description](#Description)
 3. [Installation Instructions](#Installation-Instructions)
+4. [Usage](#Usage)
 4. [License](#License)
 5. [Contributions](#Contributions)
 6. [Tests](#Tests)
