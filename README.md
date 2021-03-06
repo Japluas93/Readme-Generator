@@ -6,10 +6,11 @@
 2. [Installation Instructions](#Installation-Instructions)
 3. [Usage](#Usage)
 4. [License](#License)
-5. [Contributions](#Contributions)
-6. [Tests](#Tests)
-7. [Questions](#Questions)
-8. [Walkthrough Video Link](#Walkthrough-Video-Link)
+5. [Badges]
+6. [Contributions](#Contributions)
+7. [Tests](#Tests)
+8. [Questions](#Questions)
+9. [Walkthrough Video Link](#Walkthrough-Video-Link)
 
 # Description
 
