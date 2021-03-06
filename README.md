@@ -9,7 +9,7 @@
 5. [Contributions](#Contributions)
 6. [Tests](#Tests)
 7. [Questions](#Questions)
-8. [Walkthrough Video](#Walkthrough-Video)
+8. [Walkthrough Video Link](#Walkthrough-Video-Link)
 
 # Description
 
@@ -41,6 +41,6 @@ If you have any additional questions, feel free to reach me at:
 [Github Profile](https://github.com/Japluas93)  
 Email: [julianpluas@gmail.com]()
 
-# Walkthrough Video
+# Walkthrough Video Link
 
 https://drive.google.com/file/d/1_L2zsTr2HfljObSRecUQh3iXiV8S5bPo/view?usp=sharing
