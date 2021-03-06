@@ -13,7 +13,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Please describe your application",
+    message: "Please describe your application.",
     name: "appDescription",
   },
   {
