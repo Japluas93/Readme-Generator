@@ -30,6 +30,8 @@ MIT
 
 # Badges
 
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)]() [![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]()
+
 # Contributions
 
 NOT APPLICABLE
