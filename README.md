@@ -42,3 +42,5 @@ If you have any additional questions, feel free to reach me at:
 Email: [julianpluas@gmail.com]()
 
 # Walkthrough Video
+
+https://drive.google.com/file/d/1_L2zsTr2HfljObSRecUQh3iXiV8S5bPo/view?usp=sharing
